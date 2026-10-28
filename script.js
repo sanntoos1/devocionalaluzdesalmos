@@ -30,7 +30,7 @@
   }
 
   // Configure aqui o link real do checkout antes de publicar.
-  const CHECKOUT_URL = '';
+  const CHECKOUT_URL = 'https://pay.cakto.com.br/39gjigp_1252858';
   const buyButton = document.querySelector('#buyButton');
   if (buyButton) {
     buyButton.addEventListener('click', event => {
